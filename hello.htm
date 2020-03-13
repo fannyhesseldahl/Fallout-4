@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Fallout 4</title>
+<style>
+body {
+         color: red;
+}
+h1 {
+         font-family: Arial,sans-serif;
+         font-size: 32px;
+         color: black;
+}
+</style>
+  </head>
+<body>
+  <h1>Hvorfor Fallout 4 er det bedste spil i verden</h1>
+    <p>Supermutants. Codsworth. Nick Valentine.</p>
+<button id="color">Change color!</button>
+  <script>
+document.getElementById('color').onclick = changeColor;
+var currentColor = "red";
+
+function changeColor() {
+               if(currentColor == "red"){
+	document.body.style.color = "green";
+	currentColor = "green"; 
+               } else {
+	document.body.style.color = "red";
+	currentColor = "red"; 
+               }
+         return currentColor;
+    }
+  </script>
+</body>
+</html>
